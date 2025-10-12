@@ -1,0 +1,24 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button{
+  cursor: pointer;
+}
+.rock-icon,.paper-icon, .scissors-icon{
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.rock-button,.paper-button,.scissors-button{
+  background-color: black;
+  border-radius: 50%;
+  border: solid 2px white;
+  width: 120px;
+  height: 120px;
+}
+.score{
+  margin-top: 50px;
+}
